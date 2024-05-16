@@ -25,4 +25,6 @@ resource "azurerm_subnet" "example" {
    location = east-us
 
 }
+resource "azurerm_virtual_machine" "testvm"
+    name = "azurerm_vm"
   
