@@ -20,3 +20,9 @@ resource "azure_virtual_network" "example" {
     location = azurerm_resource_group_exampe.location
     resource_group = azurerm_resource_group_example.name
 }
+resource "azurerm_subnet" "example" {
+   name = "azurerm_subnet"
+   location = east-us
+
+}
+  
